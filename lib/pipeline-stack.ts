@@ -87,7 +87,7 @@ export class PipelineStack extends Stack {
               actionName: 'Checkout',
               output: sourceOutput,
               owner: "dharmeshn007",
-              repo: "aws-cdk-ts",
+              repo: "cdk-api-pipeline",
               oauthToken: SecretValue.secretsManager("aws-cdk"),
               trigger: codepipeline_actions.GitHubTrigger.WEBHOOK,
             }),
